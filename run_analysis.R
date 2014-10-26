@@ -38,12 +38,11 @@ run_analysis <- function() {
   # 
   # We also want to make everything lower case
   
- ## featureVariablesNames$V2 <- gsub("-", "", featureVariablesNames$V2,)
-  ##featureVariablesNames$V2 <- gsub("\\(", "", featureVariablesNames$V2,)
-  ##featureVariablesNames$V2 <- gsub("\\)", "", featureVariablesNames$V2,)
-  ##featureVariablesNames$V2 <- gsub("\\,", "", featureVariablesNames$V2,)
-  ##featureVariablesNames$V2 <- tolower(featureVariablesNames$V2)
-  
+  featureVariablesNames$V2 <- gsub("-", "", featureVariablesNames$V2,)
+  featureVariablesNames$V2 <- gsub("\\(", "", featureVariablesNames$V2,)
+  featureVariablesNames$V2 <- gsub("\\)", "", featureVariablesNames$V2,)
+  featureVariablesNames$V2 <- gsub("\\,", "", featureVariablesNames$V2,)
+  ## featureVariablesNames$V2 <- tolower(featureVariablesNames$V2)
   
   # Load the test data set and assign column names.  This step requires the loading
   # of two files:
@@ -108,6 +107,12 @@ run_analysis <- function() {
   # - Activity Name
   # - Columns that contain std and mean in the column name
   dataset1 <- data[, c(1, 2, grep("std", colnames(data)), grep("mean", colnames(data)))]
+  
+  # One last clean up of column names.  Make them all lower case
+  # We waiting until now so the grep() command above does not include 
+  # "Mean" - that is mean with upper case Mean.
+  
+  colnames(dataset1) <- tolower(names(dataset1))
   
   # Save the data set file
   # Check if the data directory exists.  If not, create it
