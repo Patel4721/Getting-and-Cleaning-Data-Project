@@ -1,0 +1,87 @@
+# run_analysis.R
+---
+title: "run_analysis"
+author: "Shailesh Patel"
+date: "October 12, 2014"
+output: html_document
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+## Description of the project
+
+The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.  
+
+One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+Here are the data for the project: 
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+## Summary of script
+
+This script does the following:
+- Merges the training and the test sets to create one data set.
+- Extracts only the measurements on the mean and standard deviation for each measurement. 
+- Uses descriptive activity names to name the activities in the data set
+- Appropriately labels the data set with descriptive variable names. 
+- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+Steps that are followed:
+
+1. Download and extract the sample data set from the URL mentioned above.
+
+2. Load the files features.txt.  Each row in this file will be used as the
+column names for the 561 variables. Also clean up the variable names with 
+the following strategy:
+
+  a. Clean up the variable names.  We want to:
+  
+  - remove "-"
+  - remove "()"
+  - remove ","
+   
+  b. We also want to make everything lower case
+
+3. Load the activity_labels.txt file.  Each row contains one of the following
+activities performed by the individuals:
+
+- 1 WALKING
+- 2 WALKING_UPSTAIRS
+- 3 WALKING_DOWNSTAIRS
+- 4 SITTING
+- 5 STANDING
+- 6 LAYING
+
+4. Load the test data set and assign column names.  This step requires the loading
+of three files:  
+
+- X_test.txt - contains the 561 variables for each observation. 
+- Y_test.txt - contains the test labels that link to activity names.
+- subject_test.txt - contains the individual's ID number.
+
+5. Load the training data set and assign column names. This step requires the loading
+of three files:  
+
+- X_train.txt - contains the 561 variables for each observation. 
+- Y_train.txt - contains the training labels that link to activity names.
+- subject_train.txt - contains the individual's ID number.
+
+6. Merge the test and training data sets using rbind.
+
+7. Link the activity labels with the merged data set so the activity numbers
+are replaced with easy to read activity names. 
+
+8. Subset only the columns that contain "std" and "mean".  Store the data set 
+in the "data" directory.  This is dataset1.csv
+
+9. Save dataset1 with this combined data set
+
+10. Create a new data set (dataset2) that calculates the mean of each variable 
+for each activity and each subject in dataset1.
+
+11. Clean up the column names by adding "_mean" to identify calculated fields
+
+12. Store the data setin the "data" directory.  This is dataset2.csv
