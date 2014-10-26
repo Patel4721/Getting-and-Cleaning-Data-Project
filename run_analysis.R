@@ -36,13 +36,13 @@ run_analysis <- function() {
   # - remove "()"
   # - remove ","
   # 
-  # We also want to make everything lower case
+  # We also want to make everything lower case.  But we'll do that on
+  # dataset1 when it is created below.  
   
   featureVariablesNames$V2 <- gsub("-", "", featureVariablesNames$V2,)
   featureVariablesNames$V2 <- gsub("\\(", "", featureVariablesNames$V2,)
   featureVariablesNames$V2 <- gsub("\\)", "", featureVariablesNames$V2,)
   featureVariablesNames$V2 <- gsub("\\,", "", featureVariablesNames$V2,)
-  ## featureVariablesNames$V2 <- tolower(featureVariablesNames$V2)
   
   # Load the test data set and assign column names.  This step requires the loading
   # of two files:
