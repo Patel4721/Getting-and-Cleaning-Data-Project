@@ -71,87 +71,87 @@ This dataset contains 10,299 objects containing 81 variables in csv format.
 
 This data set contains the following data elements:
 
-subjectid - contains the identifier ranging from 1 to 30 for the individual.
-activity - contains an easy to ready description of the activity that was performed.
-tbodyaccstdx - this variable and the remaining 79 are described in the opening section above.
-tbodyaccstdy
-tbodyaccstdz
-tgravityaccstdx
-tgravityaccstdy
-tgravityaccstdz
-tbodyaccjerkstdx
-tbodyaccjerkstdy
-tbodyaccjerkstdz
-tbodygyrostdx
-tbodygyrostdy
-tbodygyrostdz
-tbodygyrojerkstdx
-tbodygyrojerkstdy
-tbodygyrojerkstdz
-tbodyaccmagstd
-tgravityaccmagstd
-tbodyaccjerkmagstd
-tbodygyromagstd
-tbodygyrojerkmagstd
-fbodyaccstdx
-fbodyaccstdy
-fbodyaccstdz
-fbodyaccjerkstdx
-fbodyaccjerkstdy
-fbodyaccjerkstdz
-fbodygyrostdx
-fbodygyrostdy
-fbodygyrostdz
-fbodyaccmagstd
-fbodybodyaccjerkmagstd
-fbodybodygyromagstd
-fbodybodygyrojerkmagstd
-tbodyaccmeanx
-tbodyaccmeany
-tbodyaccmeanz
-tgravityaccmeanx
-tgravityaccmeany
-tgravityaccmeanz
-tbodyaccjerkmeanx
-tbodyaccjerkmeany
-tbodyaccjerkmeanz
-tbodygyromeanx
-tbodygyromeany
-tbodygyromeanz
-tbodygyrojerkmeanx
-tbodygyrojerkmeany
-tbodygyrojerkmeanz
-tbodyaccmagmean
-tgravityaccmagmean
-tbodyaccjerkmagmean
-tbodygyromagmean
-tbodygyrojerkmagmean
-fbodyaccmeanx
-fbodyaccmeany
-fbodyaccmeanz
-fbodyaccmeanfreqx
-fbodyaccmeanfreqy
-fbodyaccmeanfreqz
-fbodyaccjerkmeanx
-fbodyaccjerkmeany
-fbodyaccjerkmeanz
-fbodyaccjerkmeanfreqx
-fbodyaccjerkmeanfreqy
-fbodyaccjerkmeanfreqz
-fbodygyromeanx
-fbodygyromeany
-fbodygyromeanz
-fbodygyromeanfreqx
-fbodygyromeanfreqy
-fbodygyromeanfreqz
-fbodyaccmagmean
-fbodyaccmagmeanfreq
-fbodybodyaccjerkmagmean
-fbodybodyaccjerkmagmeanfreq
-fbodybodygyromagmean
-fbodybodygyromagmeanfreq
-fbodybodygyrojerkmagmean
-fbodybodygyrojerkmagmeanfreq
+- subjectid - contains the identifier ranging from 1 to 30 for the individual.
+- activity - contains an easy to ready description of the activity that was performed.
+- tbodyaccstdx - this variable and the remaining 79 are described in the opening section above.
+- tbodyaccstdy
+- tbodyaccstdz
+- tgravityaccstdx
+- tgravityaccstdy
+- tgravityaccstdz
+- tbodyaccjerkstdx
+- tbodyaccjerkstdy
+- tbodyaccjerkstdz
+- tbodygyrostdx
+- tbodygyrostdy
+- tbodygyrostdz
+- tbodygyrojerkstdx
+- tbodygyrojerkstdy
+- tbodygyrojerkstdz
+- tbodyaccmagstd
+- tgravityaccmagstd
+- tbodyaccjerkmagstd
+- tbodygyromagstd
+- tbodygyrojerkmagstd
+- fbodyaccstdx
+- fbodyaccstdy
+- fbodyaccstdz
+- fbodyaccjerkstdx
+- fbodyaccjerkstdy
+- fbodyaccjerkstdz
+- fbodygyrostdx
+- fbodygyrostdy
+- fbodygyrostdz
+- fbodyaccmagstd
+- fbodybodyaccjerkmagstd
+- fbodybodygyromagstd
+- fbodybodygyrojerkmagstd
+- tbodyaccmeanx
+- tbodyaccmeany
+- tbodyaccmeanz
+- tgravityaccmeanx
+- tgravityaccmeany
+- tgravityaccmeanz
+- tbodyaccjerkmeanx
+- tbodyaccjerkmeany
+- tbodyaccjerkmeanz
+- tbodygyromeanx
+- tbodygyromeany
+- tbodygyromeanz
+- tbodygyrojerkmeanx
+- tbodygyrojerkmeany
+- tbodygyrojerkmeanz
+- tbodyaccmagmean
+- tgravityaccmagmean
+- tbodyaccjerkmagmean
+- tbodygyromagmean
+- tbodygyrojerkmagmean
+- fbodyaccmeanx
+- fbodyaccmeany
+- fbodyaccmeanz
+- fbodyaccmeanfreqx
+- fbodyaccmeanfreqy
+- fbodyaccmeanfreqz
+- fbodyaccjerkmeanx
+- fbodyaccjerkmeany
+- fbodyaccjerkmeanz
+- fbodyaccjerkmeanfreqx
+- fbodyaccjerkmeanfreqy
+- fbodyaccjerkmeanfreqz
+- fbodygyromeanx
+- fbodygyromeany
+- fbodygyromeanz
+- fbodygyromeanfreqx
+- fbodygyromeanfreqy
+- fbodygyromeanfreqz
+- fbodyaccmagmean
+- fbodyaccmagmeanfreq
+- fbodybodyaccjerkmagmean
+- fbodybodyaccjerkmagmeanfreq
+- fbodybodygyromagmean
+- fbodybodygyromagmeanfreq
+- fbodybodygyrojerkmagmean
+- fbodybodygyrojerkmagmeanfreq
 
 ## Dataset2.csv
 
@@ -162,87 +162,84 @@ This data set contains 180 objects of 81 variables in csv format.
 
 This data set contains the following data elements:
 
-subjectid - contains the identifier ranging from 1 to 30 for the individual.
-activity - contains an easy to ready description of the activity that was performed.
-tbodyaccstdx_mean
-tbodyaccstdy_mean
-tbodyaccstdz_mean
-tgravityaccstdx_mean
-tgravityaccstdy_mean
-tgravityaccstdz_mean
-tbodyaccjerkstdx_mean
-tbodyaccjerkstdy_mean
-tbodyaccjerkstdz_mean
-tbodygyrostdx_mean
-tbodygyrostdy_mean
-tbodygyrostdz_mean
-tbodygyrojerkstdx_mean
-tbodygyrojerkstdy_mean
-tbodygyrojerkstdz_mean
-tbodyaccmagstd_mean
-tgravityaccmagstd_mean
-tbodyaccjerkmagstd_mean
-tbodygyromagstd_mean
-tbodygyrojerkmagstd_mean
-fbodyaccstdx_mean
-fbodyaccstdy_mean
-fbodyaccstdz_mean
-fbodyaccjerkstdx_mean
-fbodyaccjerkstdy_mean
-fbodyaccjerkstdz_mean
-fbodygyrostdx_mean
-fbodygyrostdy_mean
-fbodygyrostdz_mean
-fbodyaccmagstd_mean
-fbodybodyaccjerkmagstd_mean
-fbodybodygyromagstd_mean
-fbodybodygyrojerkmagstd_mean
-tbodyaccmeanx_mean
-tbodyaccmeany_mean
-tbodyaccmeanz_mean
-tgravityaccmeanx_mean
-tgravityaccmeany_mean
-tgravityaccmeanz_mean
-tbodyaccjerkmeanx_mean
-tbodyaccjerkmeany_mean
-tbodyaccjerkmeanz_mean
-tbodygyromeanx_mean
-tbodygyromeany_mean
-tbodygyromeanz_mean
-tbodygyrojerkmeanx_mean
-tbodygyrojerkmeany_mean
-tbodygyrojerkmeanz_mean
-tbodyaccmagmean_mean
-tgravityaccmagmean_mean
-tbodyaccjerkmagmean_mean
-tbodygyromagmean_mean
-tbodygyrojerkmagmean_mean
-fbodyaccmeanx_mean
-fbodyaccmeany_mean
-fbodyaccmeanz_mean
-fbodyaccmeanfreqx_mean
-fbodyaccmeanfreqy_mean
-fbodyaccmeanfreqz_mean
-fbodyaccjerkmeanx_mean
-fbodyaccjerkmeany_mean
-fbodyaccjerkmeanz_mean
-fbodyaccjerkmeanfreqx_mean
-fbodyaccjerkmeanfreqy_mean
-fbodyaccjerkmeanfreqz_mean
-fbodygyromeanx_mean
-fbodygyromeany_mean
-fbodygyromeanz_mean
-fbodygyromeanfreqx_mean
-fbodygyromeanfreqy_mean
-fbodygyromeanfreqz_mean
-fbodyaccmagmean_mean
-fbodyaccmagmeanfreq_mean
-fbodybodyaccjerkmagmean_mean
-fbodybodyaccjerkmagmeanfreq_mean
-fbodybodygyromagmean_mean
-fbodybodygyromagmeanfreq_mean
-fbodybodygyrojerkmagmean_mean
-fbodybodygyrojerkmagmeanfreq_mean
-
-
-
+- subjectid - contains the identifier ranging from 1 to 30 for the individual.
+- activity - contains an easy to ready description of the activity that was performed.
+- tbodyaccstdx_mean
+- tbodyaccstdy_mean
+- tbodyaccstdz_mean
+- tgravityaccstdx_mean
+- tgravityaccstdy_mean
+- tgravityaccstdz_mean
+- tbodyaccjerkstdx_mean
+- tbodyaccjerkstdy_mean
+- tbodyaccjerkstdz_mean
+- tbodygyrostdx_mean
+- tbodygyrostdy_mean
+- tbodygyrostdz_mean
+- tbodygyrojerkstdx_mean
+- tbodygyrojerkstdy_mean
+- tbodygyrojerkstdz_mean
+- tbodyaccmagstd_mean
+- tgravityaccmagstd_mean
+- tbodyaccjerkmagstd_mean
+- tbodygyromagstd_mean
+- tbodygyrojerkmagstd_mean
+- fbodyaccstdx_mean
+- fbodyaccstdy_mean
+- fbodyaccstdz_mean
+- fbodyaccjerkstdx_mean
+- fbodyaccjerkstdy_mean
+- fbodyaccjerkstdz_mean
+- fbodygyrostdx_mean
+- fbodygyrostdy_mean
+- fbodygyrostdz_mean
+- fbodyaccmagstd_mean
+- fbodybodyaccjerkmagstd_mean
+- fbodybodygyromagstd_mean
+- fbodybodygyrojerkmagstd_mean
+- tbodyaccmeanx_mean
+- tbodyaccmeany_mean
+- tbodyaccmeanz_mean
+- tgravityaccmeanx_mean
+- tgravityaccmeany_mean
+- tgravityaccmeanz_mean
+- tbodyaccjerkmeanx_mean
+- tbodyaccjerkmeany_mean
+- tbodyaccjerkmeanz_mean
+- tbodygyromeanx_mean
+- tbodygyromeany_mean
+- tbodygyromeanz_mean
+- tbodygyrojerkmeanx_mean
+- tbodygyrojerkmeany_mean
+- tbodygyrojerkmeanz_mean
+- tbodyaccmagmean_mean
+- tgravityaccmagmean_mean
+- tbodyaccjerkmagmean_mean
+- tbodygyromagmean_mean
+- tbodygyrojerkmagmean_mean
+- fbodyaccmeanx_mean
+- fbodyaccmeany_mean
+- fbodyaccmeanz_mean
+- fbodyaccmeanfreqx_mean
+- fbodyaccmeanfreqy_mean
+- fbodyaccmeanfreqz_mean
+- fbodyaccjerkmeanx_mean
+- fbodyaccjerkmeany_mean
+- fbodyaccjerkmeanz_mean
+- fbodyaccjerkmeanfreqx_mean
+- fbodyaccjerkmeanfreqy_mean
+- fbodyaccjerkmeanfreqz_mean
+- fbodygyromeanx_mean
+- fbodygyromeany_mean
+- fbodygyromeanz_mean
+- fbodygyromeanfreqx_mean
+- fbodygyromeanfreqy_mean
+- fbodygyromeanfreqz_mean
+- fbodyaccmagmean_mean
+- fbodyaccmagmeanfreq_mean
+- fbodybodyaccjerkmagmean_mean
+- fbodybodyaccjerkmagmeanfreq_mean
+- fbodybodygyromagmean_mean
+- fbodybodygyromagmeanfreq_mean
+- fbodybodygyrojerkmagmean_mean
+- fbodybodygyrojerkmagmeanfreq_mean 
